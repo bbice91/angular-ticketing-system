@@ -1,1 +1,9 @@
-<h2>{{ticket}}</h2>
+<h2>{{ticket.createdBy | uppercase}} Details</h2>
+<div><span>id: </span>{{ticket.id}}</div>
+<div><span>id: </span>{{ticket.resolvedBy}}</div>
+<div><span>id: </span>{{ticket.userName}}</div>
+<div><span>id: </span>{{ticket.userEmail}}</div>
+<div>
+    <label for="resolvedBy">Ticket resolvedBy: </label>
+    <input id="resolvedBy" [(ngModel)]="ticket.resolvedBy" placeholder="resolvedBy">
+  </div>
