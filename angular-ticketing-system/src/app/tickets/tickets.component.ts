@@ -9,9 +9,15 @@ import { TICKETS } from '../mock-tickets';
 })
 export class TicketsComponent implements OnInit {
   tickets = TICKETS;
+  selectedTicket?: Ticket;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onSelect(ticket: Ticket): void {
+    this.selectedTicket = ticket;
   }
 
 }

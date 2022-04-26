@@ -1,6 +1,18 @@
 <h2>My Tickets</h2>
 <ul class="tickets">
     <li *ngFor="let ticket of tickets">
-    <span class="badge">{{ticket.id}}</span>{{ticket.createdBy}}, {{ticket.resolvedBy}}, {{ticket.userName}}, {{ticket.userEmail}},
-  </li>
+        <button [class.selected]="ticket === selectedTicket" type="button" (click)="onSelect(ticket)">
+    <span class="badge">{{ticket.id}}</span>{{ticket.createdBy}}, {{ticket.resolvedBy}}, {{ticket.userName}}, {{ticket.userEmail}}
+</button>    
+</li>
 </ul>
+<div *ngIf="selectedTicket">
+
+    <h2>{{selectedTicket.createdBy | uppercase}} Details</h2>
+    <div>id: {{selectedTicket.id}}</div>
+    <div>
+      <label for="ticket-createdBy">createdBy: </label>
+      <input id="ticket-createdBy" [(ngModel)]="selectedTicket.createdBy" placeholder="createdBy">
+    </div>
+  
+  </div>
