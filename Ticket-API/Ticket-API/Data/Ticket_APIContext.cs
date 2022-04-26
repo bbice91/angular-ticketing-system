@@ -16,5 +16,7 @@ namespace Ticket_API.Data
         }
 
         public DbSet<Ticket_API.Ticket> Ticket { get; set; }
+
+        public DbSet<Ticket_API.Favorite> Favorite { get; set; }
     }
 }

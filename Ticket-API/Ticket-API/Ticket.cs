@@ -7,5 +7,7 @@ namespace Ticket_API
         public string UserName { get; set; }
         public string ResolvedBy { get; set; }
         public string UserEmail { get; set; }
+        public string Resolution { get; set; }
+
     }
 }

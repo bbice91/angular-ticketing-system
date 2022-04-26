@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bbice\\source\\repos\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {}
+    "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bbice\\source\\repos\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {
+    "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bbice\\source\\repos\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+        "projectUniqueName": "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
         "projectName": "Ticket-API",
-        "projectPath": "C:\\Users\\bbice\\source\\repos\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+        "projectPath": "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
         "packagesPath": "C:\\Users\\bbice\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bbice\\source\\repos\\Ticket-API\\Ticket-API\\obj\\",
+        "outputPath": "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bbice\\AppData\\Roaming\\NuGet\\NuGet.Config",

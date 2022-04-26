@@ -4,4 +4,5 @@ export interface Ticket {
     resolvedBy: string;
     userName: string;
     userEmail: string;
+    resolution: string;
 }
