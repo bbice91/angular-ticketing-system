@@ -1,9 +1,6 @@
-<h2>{{ticket.createdBy | uppercase}} Details</h2>
-<div><span>id: </span>{{ticket.id}}</div>
-<div><span>id: </span>{{ticket.resolvedBy}}</div>
-<div><span>id: </span>{{ticket.userName}}</div>
-<div><span>id: </span>{{ticket.userEmail}}</div>
-<div>
-    <label for="resolvedBy">Ticket resolvedBy: </label>
-    <input id="resolvedBy" [(ngModel)]="ticket.resolvedBy" placeholder="resolvedBy">
-  </div>
+<h2>My Tickets</h2>
+<ul class="tickets">
+    <li *ngFor="let ticket of tickets">
+    <span class="badge">{{ticket.id}}</span>{{ticket.createdBy}}, {{ticket.resolvedBy}}, {{ticket.userName}}, {{ticket.userEmail}},
+  </li>
+</ul>

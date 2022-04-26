@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Ticket } from '../ticket';
+import { TICKETS } from '../mock-tickets';
 
 @Component({
   selector: 'app-tickets',
@@ -7,13 +8,7 @@ import { Ticket } from '../ticket';
   styleUrls: ['./tickets.component.css']
 })
 export class TicketsComponent implements OnInit {
-  ticket: Ticket ={
-    id: 1,
-    createdBy:'HELLO',
-    resolvedBy:'WORLD',
-    userName:'HELLO',
-    userEmail:'WORLD'
-  }
+  tickets = TICKETS;
   constructor() { }
 
   ngOnInit(): void {
