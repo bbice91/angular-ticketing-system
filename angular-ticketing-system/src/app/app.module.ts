@@ -4,12 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TicketsComponent } from './tickets/tickets.component';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+import { TicketDetailComponent } from './ticket-detail/ticket-detail.component';
+import { MessagesComponent } from './messages/messages.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TicketsComponent
+    TicketsComponent,
+    TicketDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,

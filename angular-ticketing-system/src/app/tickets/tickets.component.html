@@ -2,25 +2,8 @@
 <ul class="tickets">
     <li *ngFor="let ticket of tickets">
         <button [class.selected]="ticket === selectedTicket" type="button" (click)="onSelect(ticket)">
-    <span class="badge">{{ticket.id}}</span>{{ticket.createdBy}}, {{ticket.resolvedBy}}, {{ticket.userName}}, {{ticket.userEmail}}
+    <span class="badge">{{ticket.id}}</span> <!-- {{ticket.createdBy}}, {{ticket.resolvedBy}}, {{ticket.userName}}, {{ticket.userEmail}} -->
 </button>    
 </li>
 </ul>
-<div *ngIf="selectedTicket">
-
-    <h2>{{selectedTicket.createdBy | uppercase}} Details</h2>
-    <div>id: {{selectedTicket.id}}</div>
-    <div>
-      <label for="ticket-createdBy">createdBy: </label>
-      <input id="ticket-createdBy" [(ngModel)]="selectedTicket.createdBy" placeholder="createdBy">
-      <label for="ticket-resolveBy">resolvedBy: </label>
-      <input id="ticket-resolvedBy" [(ngModel)]="selectedTicket.resolvedBy" placeholder="resolvedBy">
-      <label for="ticket-userName">createdBy: </label>
-      <input id="ticket-userName" [(ngModel)]="selectedTicket.userName" placeholder="userName">
-      <label for="ticket-userEmail">createdBy: </label>
-      <input id="ticket-userEmail" [(ngModel)]="selectedTicket.userEmail" placeholder="userEmail">
-      <label for="ticket-resolution">resolution: </label>
-      <input id="ticket-resolution" [(ngModel)]="selectedTicket.resolution" placeholder="resolution">
-    </div>
-  
-  </div>
+<app-ticket-detail [ticket]="selectedTicket"></app-ticket-detail>
