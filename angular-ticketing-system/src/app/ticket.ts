@@ -1,6 +1,6 @@
 export interface Ticket {
     id: number;
-    createdBy: string;
+    title: string;
     resolvedBy: string;
     userName: string;
     userEmail: string;

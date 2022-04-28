@@ -1,0 +1,7 @@
+<h2>Top Tickets</h2>
+<div class="tickets-menu">
+  <a *ngFor="let ticket of tickets"
+    routerLink="/detail/{{ticket.id}}">
+    {{ticket.title}}
+</a>
+</div>

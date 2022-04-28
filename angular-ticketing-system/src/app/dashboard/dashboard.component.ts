@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Ticket } from '../ticket';
 import { TicketService } from '../ticket.service';
-import { MessageService } from '../message.service';
 
 @Component({
-  selector: 'app-tickets',
-  templateUrl: './tickets.component.html',
-  styleUrls: ['./tickets.component.css']
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: [ './dashboard.component.css' ]
 })
-export class TicketsComponent implements OnInit {
+export class DashboardComponent implements OnInit {
   tickets: Ticket[] = [];
 
   constructor(private ticketService: TicketService) { }
@@ -20,7 +18,6 @@ export class TicketsComponent implements OnInit {
 
   getTickets(): void {
     this.ticketService.getTickets()
-    .subscribe(tickets => this.tickets = tickets);
+      .subscribe(tickets => this.tickets = tickets.slice(1, 5));
   }
 }
-

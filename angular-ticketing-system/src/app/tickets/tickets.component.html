@@ -1,9 +1,9 @@
 <h2>My Tickets</h2>
 <ul class="tickets">
     <li *ngFor="let ticket of tickets">
-        <button [class.selected]="ticket === selectedTicket" type="button" (click)="onSelect(ticket)">
-    <span class="badge">{{ticket.id}}</span> <!-- {{ticket.createdBy}}, {{ticket.resolvedBy}}, {{ticket.userName}}, {{ticket.userEmail}} -->
-</button>    
+     <a routerLink ="/detail/{{ticket.id}}">
+         <span class="badge">{{ticket.id}}</span> {{ticket.title}}
+     </a>
 </li>
 </ul>
-<app-ticket-detail [ticket]="selectedTicket"></app-ticket-detail>
+

@@ -1,15 +1,15 @@
 <div *ngIf="ticket">
 
-    <h2>{{ticket.createdBy | uppercase}} Details</h2>
+    <h2>{{ticket.title | uppercase}} Details</h2>
     <div>id: {{ticket.id}}</div>
     <div>
-      <label for="ticket-createdBy">createdBy: </label>
-      <input id="ticket-createdBy" [(ngModel)]="ticket.createdBy" placeholder="createdBy">
+      <label for="ticket-title">title: </label>
+      <input id="ticket-title" [(ngModel)]="ticket.title" placeholder="title">
       <label for="ticket-resolveBy">resolvedBy: </label>
       <input id="ticket-resolvedBy" [(ngModel)]="ticket.resolvedBy" placeholder="resolvedBy">
-      <label for="ticket-userName">createdBy: </label>
+      <label for="ticket-userName">title: </label>
       <input id="ticket-userName" [(ngModel)]="ticket.userName" placeholder="userName">
-      <label for="ticket-userEmail">createdBy: </label>
+      <label for="ticket-userEmail">title: </label>
       <input id="ticket-userEmail" [(ngModel)]="ticket.userEmail" placeholder="userEmail">
       <label for="ticket-resolution">resolution: </label>
       <input id="ticket-resolution" [(ngModel)]="ticket.resolution" placeholder="resolution">

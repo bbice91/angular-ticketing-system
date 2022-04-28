@@ -1,19 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
-import { TicketsComponent } from './tickets/tickets.component';
-import { FormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { TicketDetailComponent } from './ticket-detail/ticket-detail.component';
-import { MessagesComponent } from './messages/messages.component'; 
+import { TicketsComponent } from './tickets/tickets.component';
+import { TicketSearchComponent } from './ticket-search/ticket-search.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TicketsComponent,
     TicketDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent,
+    TicketSearchComponent
   ],
   imports: [
     BrowserModule,
