@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { HttpClient, HttpClientModule} from '@angular/common/http';  
+
+import { HttpClientModule} from '@angular/common/http';  
 
 import { AppRoutingModule } from './app-routing.module';
+import { Ticket } from './ticket';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -24,9 +25,7 @@ import { MessagesComponent } from './messages/messages.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    HttpClientModule,
-    HttpClient
+    HttpClientModule
   ],
   providers: [HttpClientModule],
   bootstrap: [AppComponent]
