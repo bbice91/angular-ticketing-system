@@ -524,3 +524,6 @@ C:\Source\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\refint
 C:\Source\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\Ticket-API.pdb
 C:\Source\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\Ticket-API.genruntimeconfig.cache
 C:\Source\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\ref\Ticket-API.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\Ticket-API.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\refint\Ticket-API.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\Ticket-API.pdb

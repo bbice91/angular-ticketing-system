@@ -11,7 +11,8 @@ import { TicketService} from '../ticket.service';
   styleUrls: ['./ticket-detail.component.css']
 })
 export class TicketDetailComponent implements OnInit {
-  @Input() ticket?: Ticket;
+  ticket?: Ticket;
+ 
   
   constructor(
     private route: ActivatedRoute,
@@ -28,5 +29,15 @@ export class TicketDetailComponent implements OnInit {
     this.ticketService.getTicket(id)
       .subscribe(ticket => this.ticket= ticket);
   }
+  goBack(): void {
+    this.location.back();
+  }
 
-}
+  save(): void {
+    if (this.ticket) {
+      this.ticketService.updateTicket(this.ticket)
+        .subscribe(() => this.goBack());
+    }
+
+
+  }}

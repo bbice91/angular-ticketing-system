@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {}
+    "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {}
   },
   "projects": {
-    "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {
+    "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+        "projectUniqueName": "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
         "projectName": "Ticket-API",
-        "projectPath": "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+        "projectPath": "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
         "packagesPath": "C:\\Users\\bbice\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\angular-ticketing-system\\Ticket-API\\Ticket-API\\obj\\",
+        "outputPath": "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bbice\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
