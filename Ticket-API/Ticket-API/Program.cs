@@ -11,6 +11,15 @@ builder.Services.AddDbContext<Ticket_APIContext>(options =>
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddCors(corsOption =>
+{
+    corsOption.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyHeader();
+        policy.AllowAnyMethod();
+        policy.AllowAnyOrigin();
+    });
+});
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
