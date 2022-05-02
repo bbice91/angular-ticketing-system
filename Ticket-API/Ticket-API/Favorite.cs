@@ -4,8 +4,8 @@ namespace Ticket_API
 
     {
         public int Id { get; set; }
-        public string UserId { get; set; }
-        public string TicketId { get; set; }
+        public string User { get; set; }
+        public string Ticket { get; set; }
 
     }
 }

@@ -1,8 +1,13 @@
 /* DashboardComponent's private CSS styles */
 
-h2 {
-    text-align: center;
-  }
+#Top{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  text-align: center;
+  margin-top: 100vw;
+
+}
   
   .tickets-menu {
     padding: 0;
