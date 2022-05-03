@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Ticket_API.Data;
+using EFCore.BulkExtensions;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<Ticket_APIContext>(options =>
