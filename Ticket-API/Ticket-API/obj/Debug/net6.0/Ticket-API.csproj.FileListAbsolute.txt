@@ -787,3 +787,8 @@ C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0
 C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\Ticket-API.csproj.CopyComplete
 C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\Ticket-API.genruntimeconfig.cache
 C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\obj\Debug\net6.0\ref\Ticket-API.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\bin\Debug\net6.0\System.Web.Http.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\bin\Debug\net6.0\System.Web.Http.Cors.dll
+C:\Projects-Leon\angular-ticketing-system\Ticket-API\Ticket-API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

@@ -12,6 +12,7 @@ import { TicketDetailComponent } from './ticket-detail/ticket-detail.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { TicketSearchComponent } from './ticket-search/ticket-search.component';
 import { MessagesComponent } from './messages/messages.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MessagesComponent } from './messages/messages.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [HttpClientModule],
   bootstrap: [AppComponent]

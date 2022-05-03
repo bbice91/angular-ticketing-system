@@ -1,21 +1,27 @@
-<!-- <div *ngIf="ticket">
-
-    <h2>{{ticket.title | uppercase}} Details</h2>
-    <div>id: {{ticket.id}}</div>
-    <div>
-      <label for="ticket-title">title: </label>
-      <input id="ticket-title" [(ngModel)]="ticket.title" placeholder="title">
-      <label for="ticket-resolvedBy">resolvedBy: </label>
-      <input id="ticket-resolvedBy" [(ngModel)]="ticket.resolvedBy" placeholder="resolvedBy">
-      <label for="ticket-userName">title: </label>
-      <input id="ticket-userName" [(ngModel)]="ticket.userName" placeholder="userName">
-      <label for="ticket-userEmail">title: </label>
-      <input id="ticket-userEmail" [(ngModel)]="ticket.userEmail" placeholder="userEmail">
-      <label for="ticket-resolution">resolution: </label>
-      <input id="ticket-resolution" [(ngModel)]="ticket.resolution" placeholder="resolution">
-    </div>
+ <div *ngIf="ticket">
+  <h2>{{ticket.title | uppercase}} Details</h2>
+  <div><span>id: </span>{{ticket.id}}</div>
+  <div>
+    <label for="ticket-id">Ticket id: </label>
+    <input id="ticket-id" [(ngModel]="ticket.id" placeholder="Ticket id"/>
+    <label for="ticket-title">Ticket title: </label>
+    <input id="ticket-title" [(ngModel]="ticket.title" placeholder="Ticket title"/>
+    <label for="ticket-resolvedBy">Ticket resolvedBy: </label>
+    <input id="ticket-resolvedBy" [(ngModel]="ticket.resolvedBy" placeholder="Ticket resolvedBy"/>
+    <label for="ticket-userName">Ticket userName: </label>
+    <input id="ticket-userName" [(ngModel]="ticket.userName" placeholder="Ticket userName"/>
+    <label for="ticket-userEmail">Ticket userEmail: </label>
+    <input id="ticket-userEmail" [(ngModel]="ticket.userEmail" placeholder="Ticket userEmail"/>
+    <label for="ticket-resolution">Ticket resolution: </label>
+    <input id="ticket-resolution" [(ngModel]="ticket.resolution" placeholder="Ticket resolution"/>
+  </div>
+  <!-- <button type="button" (click)="addFavorite()">Add Favorite</button> -->
+  <button type="button" (click)="goBack()">go back</button>
+  <button type="button" (click)="save()">save</button>
+</div>
+   
   
-  </div> -->
+   
 
   <!-- <h2>{{ticket.title | uppercase}} Details</h2>
   <div><span>id: </span>{{ticket.id}}</div>

@@ -1,3 +1,5 @@
+import { Favorite } from "./favorite";
+
 export interface Ticket {
     id: number;
     title: string;
@@ -5,4 +7,5 @@ export interface Ticket {
     userName: string;
     userEmail: string;
     resolution: string;
+    favorite: Favorite;
 }
