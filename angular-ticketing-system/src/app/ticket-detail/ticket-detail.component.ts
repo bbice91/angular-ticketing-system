@@ -4,6 +4,8 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { TicketService} from '../ticket.service';
+import { FavoriteService } from '../favorite.service';
+import { Favorite } from '../favorite';
 
 @Component({
   selector: 'app-ticket-detail',
@@ -12,11 +14,13 @@ import { TicketService} from '../ticket.service';
 })
 export class TicketDetailComponent implements OnInit {
   ticket?: Ticket;
+  favorite?: Favorite;
  
   
   constructor(
     private route: ActivatedRoute,
     private ticketService: TicketService,
+    private favoriteService: FavoriteService,
     private location: Location
   ) { }
 
@@ -38,6 +42,12 @@ export class TicketDetailComponent implements OnInit {
       this.ticketService.updateTicket(this.ticket)
         .subscribe(() => this.goBack());
     }
+}
 
-
-  }}
+//   addFavorite(): void {
+//     if (this.ticket) {
+//       this.favoriteService.updateTicket(this.ticket)
+//       .subscribe(ticket => this.ticket= ticket);
+//   }
+// }
+}
