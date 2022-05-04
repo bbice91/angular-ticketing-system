@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
-
+import { TicketDetailComponent } from './ticket-detail/ticket-detail.component';
 import { Ticket } from './ticket';
 import { MessageService } from './message.service';
 
@@ -46,15 +46,17 @@ export class TicketService {
   }
 
   /** GET ticket by id. Will 404 if id not found */
-  getTicket(id: number): Observable<Ticket> {
+  getTicket(id: number) : Observable<Ticket> {
     const url = `${this.ticketsUrl}/${id}`;
+   
+  
     return this.http.get<Ticket>(url).pipe(
       tap(_ => this.log(`fetched ticket id=${id}`)),
       catchError(this.handleError<Ticket>(`getTicket id=${id}`))
     );
   }
 
-  /* GET tickets whose name contains search term */
+  /* GET tickets whose name con-tains search term */
   searchTickets(term: string): Observable<Ticket[]> {
     if (!term.trim()) {
       // if not search term, return empty ticket array.

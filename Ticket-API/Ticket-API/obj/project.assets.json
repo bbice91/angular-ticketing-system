@@ -9988,19 +9988,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bbice\\.nuget\\packages\\": {}
+    "C:\\Users\\carso\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+      "projectUniqueName": "C:\\Users\\carso\\Desktop\\TeamTicket\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
       "projectName": "Ticket-API",
-      "projectPath": "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
-      "packagesPath": "C:\\Users\\bbice\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects-Leon\\angular-ticketing-system\\Ticket-API\\Ticket-API\\obj\\",
+      "projectPath": "C:\\Users\\carso\\Desktop\\TeamTicket\\angular-ticketing-system\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+      "packagesPath": "C:\\Users\\carso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carso\\Desktop\\TeamTicket\\angular-ticketing-system\\Ticket-API\\Ticket-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bbice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\carso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10075,7 +10075,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
