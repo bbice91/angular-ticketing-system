@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';  
 
 import { AppRoutingModule } from './app-routing.module';
-import { Ticket } from './ticket';
+
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -13,6 +13,7 @@ import { TicketsComponent } from './tickets/tickets.component';
 import { TicketSearchComponent } from './ticket-search/ticket-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FormsModule } from '@angular/forms';
+import { TicketDisplayComponent } from './ticket-display/ticket-display.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,8 @@ import { FormsModule } from '@angular/forms';
     MessagesComponent,
     DashboardComponent,
     TicketSearchComponent,
+    TicketDisplayComponent
+    
   ],
   imports: [
     BrowserModule,

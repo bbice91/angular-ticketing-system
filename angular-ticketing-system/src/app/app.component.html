@@ -1,9 +1,13 @@
-<div id="Top2">
+<div id="Wrapper">
 <h1>{{title}}</h1>
 <nav>
   <a routerLink="/dashboard">Dashboard</a>
   <a routerLink="/tickets">Tickets</a>
 </nav>
-</div>
+
 <router-outlet></router-outlet>
 <app-messages></app-messages>
+<app-ticket-detail></app-ticket-detail>
+<app-ticket-search></app-ticket-search>
+<!-- <app-ticket-display></app-ticket-display> -->
+</div>

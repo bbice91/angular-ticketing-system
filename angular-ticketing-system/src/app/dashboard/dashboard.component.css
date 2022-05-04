@@ -1,13 +1,11 @@
 /* DashboardComponent's private CSS styles */
 
-#Top{
+/* #Top{
   display: flex;
   flex-direction: row;
   align-content: center;
   text-align: center;
-  margin-top: 100vw;
-
-}
+} */
   
   .tickets-menu {
     padding: 0;
@@ -19,8 +17,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: flex-start;
-    align-items: flex-start;
+
   }
   
   a {

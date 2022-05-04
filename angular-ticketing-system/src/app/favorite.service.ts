@@ -6,6 +6,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 
 import { Favorite } from './favorite';
 import { MessageService } from './message.service';
+import { Ticket } from './ticket';
 
 
 @Injectable({ providedIn: 'root', })
@@ -71,8 +72,15 @@ export class FavoriteService {
   //////// Save methods //////////
 
   /** POST: add a new favorite to the server */
-  addFavorite(favorite: Favorite): Observable<Favorite> {
-    return this.http.post<Favorite>(this.favoritesUrl, favorite, this.httpOptions).pipe(
+  // addFavorite(favorite: Favorite): Observable<Favorite> {
+  //   return this.http.post<Favorite>(this.favoritesUrl, favorite, this.httpOptions).pipe(
+  //     tap((newFavorite: Favorite) => this.log(`added favorite w/ id=${newFavorite.id}`)),
+  //     catchError(this.handleError<Favorite>('addFavorite'))
+  //   );
+  // }
+
+  addFavorite(ticket: Ticket): Observable<Favorite> {
+    return this.http.post<Favorite>(this.favoritesUrl, ticket, this.httpOptions).pipe(
       tap((newFavorite: Favorite) => this.log(`added favorite w/ id=${newFavorite.id}`)),
       catchError(this.handleError<Favorite>('addFavorite'))
     );

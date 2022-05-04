@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ticket-API",
+    "\\Ticket-API\\Ticket-API",
+    "\\Ticket-API\\Ticket-API\\Data",
+    "\\Ticket-API\\Ticket-API\\Migrations",
+    "\\Ticket-API\\Ticket-API\\Services"
+  ],
+  "SelectedNode": "\\Ticket-API\\Ticket-API\\Ticket-API.csproj",
+  "PreviewInSolutionExplorer": false
+}
