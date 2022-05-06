@@ -44,10 +44,10 @@ export class TicketDetailComponent implements OnInit {
     }
 }
 
-//   addFavorite(): void {
-//     if (this.ticket) {
-//       this.favoriteService.updateTicket(this.ticket)
-//       .subscribe(ticket => this.ticket= ticket);
-//   }
-// }
+  addFavorite(): void {
+    if (this.ticket) {
+      this.favoriteService.addFavorite(this.ticket)
+      .subscribe(ticket => this.favorite= ticket);
+  }
+}
 }
